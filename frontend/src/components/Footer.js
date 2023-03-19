@@ -60,7 +60,7 @@ const Footer = () => {
         <Col xs={{ order: 13 }}>
         <Navbar.Text> 
         <img
-              src="./images/uemf.png"
+              src="./images/UEMF.png"
               width="250"
               height="150"
               className="d-inline-block align-top"
