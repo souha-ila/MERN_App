@@ -26,7 +26,7 @@ class Contact extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     
-    fetch('http://localhost:5000/message', {
+    fetch('https://uemf-news-api.onrender.com/message', {
         method: 'POST',
         body: JSON.stringify(this.state),
         headers: {

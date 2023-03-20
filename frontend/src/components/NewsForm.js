@@ -29,7 +29,7 @@ class NewsForm extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     
-    fetch('http://localhost:5000/save', {
+    fetch('https://uemf-news-api.onrender.com/save', {
         method: 'POST',
         body: JSON.stringify(this.state),
         headers: {

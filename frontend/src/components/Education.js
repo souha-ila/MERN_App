@@ -11,7 +11,7 @@ const Education = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/Education')
+    axios.get('https://uemf-news-api.onrender.com/Education')
       .then((response) => {
         setData(response.data);
       })

@@ -24,7 +24,7 @@ class Delete extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     
-    fetch('http://localhost:5000/supp', {
+    fetch('https://uemf-news-api.onrender.com/supp', {
         method: 'POST',
         body: JSON.stringify(this.state),
         headers: {

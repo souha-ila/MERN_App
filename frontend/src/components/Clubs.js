@@ -11,7 +11,7 @@ const Clubs = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/Clubs')
+    axios.get('https://uemf-news-api.onrender.com/Clubs')
       .then((response) => {
         setData(response.data);
       })

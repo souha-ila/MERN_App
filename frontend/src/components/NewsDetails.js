@@ -12,7 +12,7 @@ function NewsDetails(props) {
     
     useEffect(() => {
       axios
-        .get(`http://localhost:5000/news/${id}`)
+        .get(`https://uemf-news-api.onrender.com/news/${id}`)
         .then((response) => {
           setNews(response.data);
         })

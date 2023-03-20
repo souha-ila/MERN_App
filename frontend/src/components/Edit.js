@@ -30,7 +30,7 @@ class Edit extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     
-    fetch('http://localhost:5000/edit', {
+    fetch('https://uemf-news-api.onrender.com/edit', {
         method: 'POST',
         body: JSON.stringify(this.state),
         headers: {

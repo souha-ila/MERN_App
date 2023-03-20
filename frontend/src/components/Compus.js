@@ -11,7 +11,7 @@ const Compus = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/Compus')
+    axios.get('https://uemf-news-api.onrender.com/Compus')
       .then((response) => {
         setData(response.data);
       })
