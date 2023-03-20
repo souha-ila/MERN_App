@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 // Se connecter à la base de données
-const mongoDB = "mongodb+srv://souhaila:souhaila@cluster0.e1vw87v.mongodb.net/?retryWrites=true&w=majority"
+const mongoDB = "mongodb+srv://admin:nrnDEi6M0SImpFtt@cluster0.e1vw87v.mongodb.net/?retryWrites=true&w=majority"
+
 mongoose.connect(mongoDB)
 .then((result) => console.log('Connexion à MongoDB réussie !'))
 .catch(() => console.log('Connexion à MongoDB échouée'))
